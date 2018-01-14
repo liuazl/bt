@@ -1,0 +1,212 @@
+<!DOCTYPE html>   <!--h5声明-->
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <style>
+        .bg{
+            background-color: lightsteelblue;
+
+        }
+        .color{
+            color:white;
+        }
+        footer{
+            background-color:lightsteelblue ;
+            text-align: center;
+        }
+        .foot{
+            padding-top: 20px;
+            font-family: "幼圆";
+        }
+        .team{
+            width:250px;
+            height: 250px;
+        }
+        .about-img{
+            border: 7px solid white;
+            border-radius: 100%;
+        }
+        .content{
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar-default navbar-fixed-top bg">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand  color" href="#">Bootstrap</a>
+            <button class="navbar-toggle btn btn-warning" data-toggle="collapse" data-target="#show" >
+                Menu
+            </button>
+            <!-- <button class="navbar-toggle" data-toggle="collapse" data-target="#show">
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+             </button>-->
+        </div>
+        <div class="collapse navbar-collapse" id="show">
+            <ul class="nav  navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a  href="index.html">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="us.html">团队</a>
+                </li>
+                <li class="nav-item">
+                    <a href="content.html">联系我们</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--巨幕-->
+<div class="jumbotron">
+    <div class="container">
+        <h1>团队</h1>
+        <p>精英团队......</p>
+    </div>
+</div>
+
+<!--我们的Team-->
+<div class="container" style="margin-top: 20px;">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="thumbnail text-center">
+                <img src="images/team/1.jpg"  class="team"/>
+                <div class="caption">
+                    <h4>Kay Garland</h4>
+                    <p>Lead Designer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="thumbnail text-center">
+                <img src="images/team/2.jpg"  class="team"/>
+                <div class="caption">
+                    <h4>Larry Parker</h4>
+                    <p>Lead Marketer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="thumbnail text-center">
+                <img src="images/team/3.jpg"  class="team"/>
+                <div class="caption">
+                    <h4>Diana Pertersen</h4>
+                    <p>Lead Developer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="thumbnail text-center">
+                <img src="images/team/6.jpg"  class="team"/>
+                <div class="caption">
+                    <h4>Diana Pertersen</h4>
+                    <p>Lead Developer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="thumbnail text-center">
+                <img src="images/team/5.jpg"  class="team"/>
+                <div class="caption">
+                    <h4>Larry Parker</h4>
+                    <p>Lead Marketer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="thumbnail text-center">
+                <img src="images/team/4.jpg"  class="team"/>
+                <div class="caption">
+                    <h4>Kay Garland</h4>
+                    <p>Lead Marketer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--经历-->
+<div class="jumbotron">
+  <div class="container">
+      <div class="row">
+          <div class=" col-lg-12">
+              <h2>关于经历</h2>
+          </div>
+      </div>
+      <div class="row content">
+               <div  class="col-md-6 col-sm-6 text-center">
+                   <img  class="about-img"  src="images/about/1.jpg" alt="">
+               </div>
+               <div class="text col-md-6 col-sm-6 text-center">
+                   <div class="timeline-panel">
+                       <div class="timeline-heading">
+                           <h4>2009-2011</h4>
+                           <h4 class="subheading">Our Humble Beginnings</h4>
+                       </div>
+                       <div class="timeline-body">
+                           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                       </div>
+                   </div>
+               </div>
+      </div>
+      <div class="row content">
+          <div  class="col-md-6 col-sm-6 text-center col-md-push-6 col-sm-push-6">
+              <img  class="about-img"  src="images/about/2.jpg" alt="">
+          </div>
+          <div class="text col-md-6 col-sm-6 text-center col-md-pull-6 col-sm-pull-6">
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                      <h4>2009-2011</h4>
+                      <h4 class="subheading">Our Humble Beginnings</h4>
+                  </div>
+                  <div class="timeline-body">
+                      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row content">
+          <div  class="col-md-6 col-sm-6 text-center">
+              <img  class="about-img"  src="images/about/3.jpg" alt="">
+          </div>
+          <div class="text col-md-6 col-sm-6 text-center">
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                      <h4>2009-2011</h4>
+                      <h4 class="subheading">Our Humble Beginnings</h4>
+                  </div>
+                  <div class="timeline-body">
+                      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!--底部-->
+<footer>
+    <div  class="container foot">
+        <p>制作人：angel</p>
+        <p>联系地址：XXXXXX</p>
+        <p>联系网址：http://www.XXX.com</p>
+    </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
